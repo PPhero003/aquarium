@@ -1,0 +1,12 @@
+[Design]
+ProjectGUID={DF2B6218-1B61-4BDC-A45B-2750F8C29A51}
+DocumentCount=1
+DocumentPath=PrepareInitialRouting.pas
+
+[Document1]
+DocumentPath=PrepareInitialRouting.pas
+DocumentKind=Script
+
+[Scripts]
+Count=1
+StartProcName=F:\workSapce_PCB\aquarium\schematic_v1_0\PrepareInitialRouting.pas>PrepareInitialRouting

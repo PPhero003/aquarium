@@ -1,0 +1,15 @@
+[Design]
+Version=1.0
+HierarchyMode=0
+
+[Document1]
+DocumentPath=GenerateFootprints.pas
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+
+[Generic_ScriptingSystem]
+StartProcName=F:\workSapce_PCB\aquarium\schematic_v1_0\GenerateFootprints.pas>GenerateAquariumFootprints
+

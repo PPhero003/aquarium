@@ -1,0 +1,6 @@
+Left=0
+Bottom=0
+Right=120
+Top=80
+Width=120
+Height=80

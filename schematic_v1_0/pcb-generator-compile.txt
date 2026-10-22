@@ -1,0 +1,1 @@
+GeneratePCBPlacement.pas=COMPILE_PASS

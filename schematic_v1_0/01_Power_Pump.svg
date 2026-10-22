@@ -1,0 +1,265 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" width="420mm" height="297mm"><rect width="1600" height="1100" fill="white"/><g font-family="Arial, sans-serif"><rect x="20" y="20" width="1560" height="1060" fill="none" stroke="#263b59" stroke-width="1.3"/>
+<text x="45" y="55" font-size="23" fill="#263b59" text-anchor="start">AQUARIUM ATO / POWER &amp; PUMP</text>
+<text x="45" y="79" font-size="12" fill="#263b59" text-anchor="start">V1.0  |  12 V DC input / 3.3 V logic  |  2026-10-13</text>
+<path d="M20 100L1580 100" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M20 1040L1580 1040" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<text x="45" y="1063" font-size="11" fill="#263b59" text-anchor="start">Connected dots = joined nets. Crossing lines without a dot are NOT connected. Same net names connect across sheets.</text>
+<text x="1380" y="1063" font-size="12" fill="#263b59" text-anchor="start">A3  |  Sheet 1 / 3  |  V1.0</text>
+<rect x="45" y="130" width="600" height="470" fill="none" stroke="#b7c4d3" stroke-width="1.3"/>
+<text x="60" y="156" font-size="16" fill="#263b59" text-anchor="start">1. INPUT PROTECTION</text>
+<rect x="100" y="220" width="90" height="90" fill="#eef6fc" stroke="#263b59" stroke-width="1.3"/>
+<path d="M100 250L80 250" stroke="#263b59" stroke-width="1.5"/>
+<text x="90" y="245" text-anchor="middle" font-size="10" fill="#8a3640">1</text>
+<text x="108" y="254" text-anchor="start" font-size="11" fill="#263b59">+12V</text>
+<path d="M100 290L80 290" stroke="#263b59" stroke-width="1.5"/>
+<text x="90" y="285" text-anchor="middle" font-size="10" fill="#8a3640">2</text>
+<text x="108" y="294" text-anchor="start" font-size="11" fill="#263b59">GND</text>
+<text x="100" y="170" font-size="12" fill="#263b59">J1</text>
+<text x="100" y="186" font-size="12" fill="#263b59">DC IN 12V</text>
+<path d="M80 250L60 250" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M60 250L60 200" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M60 200L240 200" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<rect x="255" y="192" width="30" height="16" fill="none" stroke="#263b59" stroke-width="1.3"/>
+<path d="M255 200L285 200" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M255 200L240 200" stroke="#263b59" stroke-width="1.5"/>
+<path d="M285 200L300 200" stroke="#263b59" stroke-width="1.5"/>
+<text x="250" y="165" font-size="12" fill="#263b59">F1</text>
+<text x="250" y="181" font-size="12" fill="#263b59">RL60-050 / 0.5A</text>
+<rect x="320" y="260" width="110" height="105" fill="#fff9df" stroke="#263b59" stroke-width="1.3"/>
+<text x="375" y="302" font-size="10" fill="#263b59" text-anchor="middle">P-MOS</text>
+<text x="375" y="322" font-size="9" fill="#263b59" text-anchor="middle">SOT223 TOP VIEW</text>
+<path d="M375 260L375 240" stroke="#263b59" stroke-width="1.5"/>
+<path d="M340 365L340 385" stroke="#263b59" stroke-width="1.5"/>
+<path d="M375 365L375 385" stroke="#263b59" stroke-width="1.5"/>
+<path d="M410 365L410 385" stroke="#263b59" stroke-width="1.5"/>
+<text x="375" y="254" font-size="9" fill="#263b59" text-anchor="middle">4 D/TAB</text>
+<text x="340" y="358" font-size="9" fill="#263b59" text-anchor="middle">1 G</text>
+<text x="375" y="358" font-size="9" fill="#263b59" text-anchor="middle">2 D</text>
+<text x="410" y="358" font-size="9" fill="#263b59" text-anchor="middle">3 S</text>
+<text x="445" y="275" font-size="12" fill="#263b59">Q1</text>
+<text x="445" y="291" font-size="12" fill="#263b59">DMP6023LE-13</text>
+<path d="M300 200L375 200" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M375 200L375 240" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M300 200L300 405" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M300 405L375 405" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M375 405L375 385" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M410 385L410 400" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M410 400L570 400" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M570 400v-12m-8 0h16" fill="none" stroke="#16715b" stroke-width="1.5"/><text x="570" y="382" text-anchor="middle" font-size="12" fill="#13634c">VIN_P</text>
+<path d="M80 290L60 290" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M60 290L60 530" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M60 530L570 530" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M570 530v8m-10 0h20m-16 4h12m-9 4h6" fill="none" stroke="#16715b" stroke-width="1.5"/>
+<rect x="242" y="445" width="16" height="30" fill="none" stroke="#263b59" stroke-width="1.3"/>
+<path d="M250 445L250 430" stroke="#263b59" stroke-width="1.5"/>
+<path d="M250 475L250 490" stroke="#263b59" stroke-width="1.5"/>
+<text x="270" y="456" font-size="12" fill="#263b59">R1</text>
+<text x="270" y="472" font-size="12" fill="#263b59">47k</text>
+<path d="M340 385L250 385" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M250 385L250 430" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M250 490L250 530" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M468 451L492 451" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M480 451L468 469" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M468 469L492 469" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M492 469L480 451" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M468 451L468 447" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M492 451L492 455" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M480 450L480 430" stroke="#263b59" stroke-width="1.5"/>
+<path d="M480 470L480 490" stroke="#263b59" stroke-width="1.5"/>
+<text x="500" y="456" font-size="12" fill="#263b59">D1</text>
+<text x="500" y="472" font-size="12" fill="#263b59">BZT52C10</text>
+<path d="M480 400L480 430" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M480 490L480 560" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M480 560L210 560" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M210 560L210 385" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M210 385L340 385" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<text x="90" y="575" font-size="11" fill="#263b59" text-anchor="start">D1: cathode -&gt; Q1 source; anode -&gt; gate.</text>
+<rect x="680" y="130" width="875" height="470" fill="none" stroke="#b7c4d3" stroke-width="1.3"/>
+<text x="695" y="156" font-size="16" fill="#263b59" text-anchor="start">2. 12 V -&gt; 3.3 V / BUCK REGULATOR</text>
+<rect x="1060" y="270" width="190" height="220" fill="#fff9df" stroke="#263b59" stroke-width="1.3"/>
+<path d="M1060 310L1040 310" stroke="#263b59" stroke-width="1.5"/>
+<text x="1050" y="305" text-anchor="middle" font-size="10" fill="#8a3640">1</text>
+<text x="1068" y="314" text-anchor="start" font-size="11" fill="#263b59">FB</text>
+<path d="M1060 370L1040 370" stroke="#263b59" stroke-width="1.5"/>
+<text x="1050" y="365" text-anchor="middle" font-size="10" fill="#8a3640">2</text>
+<text x="1068" y="374" text-anchor="start" font-size="11" fill="#263b59">EN</text>
+<path d="M1060 430L1040 430" stroke="#263b59" stroke-width="1.5"/>
+<text x="1050" y="425" text-anchor="middle" font-size="10" fill="#8a3640">3</text>
+<text x="1068" y="434" text-anchor="start" font-size="11" fill="#263b59">VIN</text>
+<path d="M1250 310L1270 310" stroke="#263b59" stroke-width="1.5"/>
+<text x="1260" y="305" text-anchor="middle" font-size="10" fill="#8a3640">6</text>
+<text x="1242" y="314" text-anchor="end" font-size="11" fill="#263b59">BST</text>
+<path d="M1250 370L1270 370" stroke="#263b59" stroke-width="1.5"/>
+<text x="1260" y="365" text-anchor="middle" font-size="10" fill="#8a3640">5</text>
+<text x="1242" y="374" text-anchor="end" font-size="11" fill="#263b59">SW</text>
+<path d="M1250 430L1270 430" stroke="#263b59" stroke-width="1.5"/>
+<text x="1260" y="425" text-anchor="middle" font-size="10" fill="#8a3640">4</text>
+<text x="1242" y="434" text-anchor="end" font-size="11" fill="#263b59">GND</text>
+<text x="1155" y="292" font-size="9" fill="#263b59" text-anchor="middle">TSOT26 TOP VIEW</text>
+<text x="1060" y="235" font-size="12" fill="#263b59">U1</text>
+<text x="1060" y="251" font-size="12" fill="#263b59">AP63203WU-7</text>
+<path d="M750 250v-12m-8 0h16" fill="none" stroke="#16715b" stroke-width="1.5"/><text x="750" y="232" text-anchor="middle" font-size="12" fill="#13634c">VIN_P</text>
+<path d="M750 250L930 250" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M970 370L1040 370" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<text x="973" y="365" font-size="11" fill="#13634c">VIN_P</text>
+<path d="M970 430L1040 430" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<text x="973" y="425" font-size="11" fill="#13634c">VIN_P</text>
+<path d="M737 416L763 416" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M737 424L763 424" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M750 416L750 390" stroke="#263b59" stroke-width="1.5"/>
+<path d="M750 424L750 450" stroke="#263b59" stroke-width="1.5"/>
+<text x="731" y="407" font-size="12" fill="#263b59" text-anchor="start">+</text>
+<text x="770" y="416" font-size="12" fill="#263b59">C1</text>
+<text x="770" y="432" font-size="12" fill="#263b59">47u/50V</text>
+<path d="M750 250L750 390" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M750 450L750 530" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M827 416L853 416" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M827 424L853 424" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M840 416L840 390" stroke="#263b59" stroke-width="1.5"/>
+<path d="M840 424L840 450" stroke="#263b59" stroke-width="1.5"/>
+<text x="860" y="416" font-size="12" fill="#263b59">C2</text>
+<text x="860" y="432" font-size="12" fill="#263b59">10u/50V</text>
+<path d="M840 250L840 390" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M840 450L840 530" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M917 416L943 416" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M917 424L943 424" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M930 416L930 390" stroke="#263b59" stroke-width="1.5"/>
+<path d="M930 424L930 450" stroke="#263b59" stroke-width="1.5"/>
+<text x="950" y="416" font-size="12" fill="#263b59">C3</text>
+<text x="950" y="432" font-size="12" fill="#263b59">100n/50V</text>
+<path d="M930 250L930 390" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M930 450L930 530" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M750 530L1500 530" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M1270 430L1270 530" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M1270 530v8m-10 0h20m-16 4h12m-9 4h6" fill="none" stroke="#16715b" stroke-width="1.5"/>
+<path d="M1297 336L1323 336" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M1297 344L1323 344" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M1310 336L1310 310" stroke="#263b59" stroke-width="1.5"/>
+<path d="M1310 344L1310 370" stroke="#263b59" stroke-width="1.5"/>
+<text x="1330" y="336" font-size="12" fill="#263b59">C4</text>
+<text x="1330" y="352" font-size="12" fill="#263b59">100n</text>
+<path d="M1270 310L1310 310" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M1270 370L1310 370" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M1310 370L1370 370" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M1380 370A5 5 0 0 1 1390 370" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M1390 370A5 5 0 0 1 1400 370" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M1400 370A5 5 0 0 1 1410 370" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M1410 370A5 5 0 0 1 1420 370" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M1380 370L1370 370" stroke="#263b59" stroke-width="1.5"/>
+<path d="M1420 370L1430 370" stroke="#263b59" stroke-width="1.5"/>
+<text x="1380" y="335" font-size="12" fill="#263b59">L1</text>
+<text x="1380" y="351" font-size="12" fill="#263b59">3.9uH / Isat 4A</text>
+<path d="M1430 370L1500 370" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M1500 370L1500 210" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M1500 210L1010 210" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M1010 210L1010 310" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M1010 310L1040 310" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M1500 210v-12m-8 0h16" fill="none" stroke="#16715b" stroke-width="1.5"/><text x="1500" y="192" text-anchor="middle" font-size="12" fill="#13634c">+3V3</text>
+<path d="M1327 466L1353 466" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M1327 474L1353 474" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M1340 466L1340 440" stroke="#263b59" stroke-width="1.5"/>
+<path d="M1340 474L1340 500" stroke="#263b59" stroke-width="1.5"/>
+<text x="1360" y="466" font-size="12" fill="#263b59">C5</text>
+<text x="1360" y="482" font-size="12" fill="#263b59">22u/10V</text>
+<path d="M1340 440L1340 420" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M1340 420L1500 420" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M1500 420L1500 370" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M1340 500L1340 530" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M1447 466L1473 466" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M1447 474L1473 474" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M1460 466L1460 440" stroke="#263b59" stroke-width="1.5"/>
+<path d="M1460 474L1460 500" stroke="#263b59" stroke-width="1.5"/>
+<text x="1480" y="466" font-size="12" fill="#263b59">C6</text>
+<text x="1480" y="482" font-size="12" fill="#263b59">22u/10V</text>
+<path d="M1460 440L1460 420" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M1460 420L1500 420" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M1500 420L1500 370" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M1460 500L1460 530" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<text x="720" y="575" font-size="11" fill="#263b59" text-anchor="start">C2/C5/C6: X7R. C2/C3 close to VIN-GND. C4 across BST-SW. FB senses output AFTER L1.</text>
+<rect x="45" y="630" width="780" height="380" fill="none" stroke="#b7c4d3" stroke-width="1.3"/>
+<text x="60" y="656" font-size="16" fill="#263b59" text-anchor="start">3. 12 V PUMP / LOW-SIDE MOSFET</text>
+<rect x="430" y="770" width="100" height="95" fill="#fff9df" stroke="#263b59" stroke-width="1.3"/>
+<text x="480" y="805" font-size="10" fill="#263b59" text-anchor="middle">N-MOS</text>
+<text x="480" y="824" font-size="9" fill="#263b59" text-anchor="middle">SOT23 TOP VIEW</text>
+<path d="M480 770L480 750" stroke="#263b59" stroke-width="1.5"/>
+<path d="M452 865L452 885" stroke="#263b59" stroke-width="1.5"/>
+<path d="M508 865L508 885" stroke="#263b59" stroke-width="1.5"/>
+<text x="480" y="764" font-size="9" fill="#263b59" text-anchor="middle">3 D</text>
+<text x="452" y="858" font-size="9" fill="#263b59" text-anchor="middle">1 G</text>
+<text x="508" y="858" font-size="9" fill="#263b59" text-anchor="middle">2 S</text>
+<text x="545" y="785" font-size="12" fill="#263b59">Q2</text>
+<text x="545" y="801" font-size="12" fill="#263b59">AO3400A</text>
+<rect x="205" y="832" width="30" height="16" fill="none" stroke="#263b59" stroke-width="1.3"/>
+<path d="M205 840L190 840" stroke="#263b59" stroke-width="1.5"/>
+<path d="M235 840L250 840" stroke="#263b59" stroke-width="1.5"/>
+<text x="200" y="805" font-size="12" fill="#263b59">R4</text>
+<text x="200" y="821" font-size="12" fill="#263b59">1k</text>
+<path d="M90 840L190 840" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<text x="93" y="835" font-size="11" fill="#13634c">PUMP_CMD</text>
+<path d="M250 840L350 840" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M350 840L350 885" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M350 885L452 885" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<rect x="342" y="905" width="16" height="30" fill="none" stroke="#263b59" stroke-width="1.3"/>
+<path d="M350 905L350 890" stroke="#263b59" stroke-width="1.5"/>
+<path d="M350 935L350 950" stroke="#263b59" stroke-width="1.5"/>
+<text x="370" y="916" font-size="12" fill="#263b59">R5</text>
+<text x="370" y="932" font-size="12" fill="#263b59">100k</text>
+<path d="M350 885L350 890" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M350 950L350 980" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M350 980L508 980" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M508 980L508 885" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M508 980v8m-10 0h20m-16 4h12m-9 4h6" fill="none" stroke="#16715b" stroke-width="1.5"/>
+<rect x="700" y="720" width="90" height="90" fill="#eef6fc" stroke="#263b59" stroke-width="1.3"/>
+<path d="M700 750L680 750" stroke="#263b59" stroke-width="1.5"/>
+<text x="690" y="745" text-anchor="middle" font-size="10" fill="#8a3640">1</text>
+<text x="708" y="754" text-anchor="start" font-size="11" fill="#263b59">+12V</text>
+<path d="M700 790L680 790" stroke="#263b59" stroke-width="1.5"/>
+<text x="690" y="785" text-anchor="middle" font-size="10" fill="#8a3640">2</text>
+<text x="708" y="794" text-anchor="start" font-size="11" fill="#263b59">PUMP-</text>
+<text x="700" y="670" font-size="12" fill="#263b59">J2</text>
+<text x="700" y="686" font-size="12" fill="#263b59">PUMP 12V</text>
+<path d="M620 710L620 750" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M620 750L680 750" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M620 710v-12m-8 0h16" fill="none" stroke="#16715b" stroke-width="1.5"/><text x="620" y="692" text-anchor="middle" font-size="12" fill="#13634c">VIN_P</text>
+<path d="M480 750L540 750" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M540 750L540 790" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M540 790L680 790" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M568 741L592 741" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M580 741L568 759" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M568 759L592 759" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M592 759L580 741" stroke="#263b59" stroke-width="1.5" fill="none"/>
+<path d="M580 740L580 720" stroke="#263b59" stroke-width="1.5"/>
+<path d="M580 760L580 780" stroke="#263b59" stroke-width="1.5"/>
+<text x="600" y="746" font-size="12" fill="#263b59">D2</text>
+<text x="600" y="762" font-size="12" fill="#263b59">SS16 / 60V</text>
+<path d="M580 720L580 710" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M580 710L620 710" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M580 780L580 790" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<path d="M580 790L620 790" stroke="#16715b" stroke-width="1.7" fill="none"/>
+<text x="80" y="710" font-size="12" fill="#263b59" text-anchor="start">R5 is wired to the gate AFTER R4.</text>
+<text x="80" y="735" font-size="12" fill="#263b59" text-anchor="start">Default state: gate low -&gt; pump OFF.</text>
+<rect x="860" y="630" width="695" height="380" fill="none" stroke="#b7c4d3" stroke-width="1.3"/>
+<text x="875" y="656" font-size="16" fill="#263b59" text-anchor="start">DESIGN / LAYOUT NOTES</text>
+<text x="885" y="700" font-size="12" fill="#263b59" text-anchor="start">01  Keep the VIN-C2-U1-GND switching loop short.</text>
+<text x="885" y="734" font-size="12" fill="#263b59" text-anchor="start">02  Place C4 at U1 pins 6 and 5; keep SW copper compact.</text>
+<text x="885" y="768" font-size="12" fill="#263b59" text-anchor="start">03  Route FB away from SW, L1 and pump return current.</text>
+<text x="885" y="802" font-size="12" fill="#263b59" text-anchor="start">04  Place D2 near J2/Q2 and use a short pump return loop.</text>
+<text x="885" y="836" font-size="12" fill="#263b59" text-anchor="start">05  VIN_P supplies both the buck converter and the pump.</text>
+<text x="885" y="870" font-size="12" fill="#263b59" text-anchor="start">06  F1 remains 0.5 A from V0.9: check pump startup current.</text>
+<text x="885" y="904" font-size="12" fill="#263b59" text-anchor="start">07  This revision reorganizes wiring; original values retained.</text>
+<text x="885" y="938" font-size="12" fill="#263b59" text-anchor="start">08  PCB footprints / load-current validation are not included.</text>
+<circle cx="300" cy="200" r="3" fill="#16715b"/>
+<circle cx="250" cy="385" r="3" fill="#16715b"/>
+<circle cx="250" cy="530" r="3" fill="#16715b"/>
+<circle cx="480" cy="400" r="3" fill="#16715b"/>
+<circle cx="840" cy="250" r="3" fill="#16715b"/>
+<circle cx="840" cy="530" r="3" fill="#16715b"/>
+<circle cx="930" cy="530" r="3" fill="#16715b"/>
+<circle cx="1270" cy="530" r="3" fill="#16715b"/>
+<circle cx="1310" cy="370" r="3" fill="#16715b"/>
+<circle cx="1500" cy="370" r="3" fill="#16715b"/>
+<circle cx="1340" cy="530" r="3" fill="#16715b"/>
+<circle cx="1460" cy="420" r="3" fill="#16715b"/>
+<circle cx="1460" cy="530" r="3" fill="#16715b"/>
+<circle cx="350" cy="885" r="3" fill="#16715b"/>
+<circle cx="580" cy="790" r="3" fill="#16715b"/></g></svg>

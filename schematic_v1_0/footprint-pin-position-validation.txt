@@ -1,0 +1,11 @@
+﻿PCB footprint pin-position validation
+Date: 2026-10-14
+Source: Altium PCB API read-back of final PcbLib Pad objects
+View: component side / top view
+TSOT-23-6 top-view sequence: PASS
+TSSOP-20 top-view sequence: PASS
+SOIC-16 top-view sequence: PASS
+SOT-23 manufacturer layout: PASS
+SOT-223 manufacturer layout: PASS
+PPTC C21025 stagger: PASS
+Overall: PASS

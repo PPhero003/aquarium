@@ -1,0 +1,12 @@
+Document=F:\workSapce_PCB\aquarium\schematic_v1_0\Aquarium_ATO_V1_0_Rebuilt.PcbDoc
+Components=64
+ComponentPads=178
+DatabasePads=182
+FreePads=4
+Nets=41
+Rules=46
+Connections=131
+BodyGapViolationsUnder0.50mm=595
+NameBodyOverlaps=245
+NameNameOverlaps=231
+NamesOutsideBoard=49

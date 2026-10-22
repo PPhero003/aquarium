@@ -1,0 +1,14 @@
+[Design]
+Version=1.0
+HierarchyMode=0
+
+[Document1]
+DocumentPath=GeneratePCBPlacement.pas
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotationSuffix=
+AnnotationScope=All
+
+[Generic_ScriptingSystem]
+StartProcName=F:\workSapce_PCB\aquarium\schematic_v1_0\GeneratePCBPlacement.pas>GenerateAquariumPCB

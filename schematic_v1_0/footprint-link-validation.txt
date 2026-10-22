@@ -1,0 +1,10 @@
+﻿PCB footprint link validation
+Date: 2026-10-14
+SchDoc components: 64
+SchDoc model links: 64
+Unique referenced footprints: 18
+PcbLib runtime-enumerated footprints: 18
+Missing referenced footprints: 0
+Project PcbLib document reference: PASS
+SchLib contains PcbLib model records: PASS
+Result: PASS
