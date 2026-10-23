@@ -1,12 +1,12 @@
 # Aquarium ATO V1.0 工程审计与清理记录
 
-日期：2026-10-15
+日期：2026-10-23
 
 ## 一致性检查
 
 | 检查项 | 结果 |
 | --- | --- |
-| Altium 工程引用 | 5/5 个文档存在：3 张 SchDoc、1 个 SchLib、1 个 PcbLib |
+| Altium 工程引用 | 工程入口引用 3 张 SchDoc、1 个 SchLib、2 个 PcbLib 和最新脚本生成的 PcbDoc，所引用文档均存在 |
 | 原理图器件 | 64 个；01 电源/水泵 18 个，02 主控/接口 25 个，03 传感器 21 个 |
 | BOM | 64 行，与原理图器件数一致 |
 | 原理图库 | 21 个符号；全部被原理图使用，无缺失、无闲置符号 |
@@ -36,4 +36,4 @@
 
 ## PCB 阶段状态
 
-工程现含 `Aquarium_ATO_V1_0.PcbDoc`。它使用用户在立创 EDA 中匹配的商城封装重新创建，板框 110 mm × 70 mm，左上角为用户坐标原点。Altium 回读为 64 个器件、178 个焊盘、41 个网络；器件全部在板内，外形重叠为 0。当前仅完成布局，尚未布线、铺铜和执行最终 PCB DRC。详见 `PCB_LAYOUT.md` 与 `eda-import-pcb-audit.txt`。
+`Aquarium_ATO_V1_0.PrjPcb` 现已引用新脚本生成的 `Aquarium_ATO_V1_0_LCEDA.PcbDoc`。该板为 120 mm × 72 mm；含 64 个器件、178 个焊盘、41 个网络、304 段双层铜线、38 个过孔和 3 个铺铜区；254 段信号线中 247 段为 0.40 mm、7 段为 0.23 mm。脚本预检确认 71 条计划连接均连通、直接异网铜线冲突为 0，最小间距为 0.20 mm；嘉立创 EDA 实际重铺和最终 PCB DRC 尚未执行，不能据此宣称可直接投板。完整立创 EDA 导入包由 `package_lceda_import.ps1` 生成；详见 `PCB_LAYOUT.md` 与 `Aquarium_ATO_V1_0_LCEDA_AUDIT.txt`。

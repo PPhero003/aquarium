@@ -1,1 +1,0 @@
-@"F:\Program Files\Alitium Designer\AD19\X2.exe" -NewInstance -RScriptingSystem:RunScript(ProjectName="F:\workSapce_PCB\aquarium\schematic_v1_0\PrepareInitialRouting.PrjScr"^|ProcName="PrepareInitialRouting>PrepareInitialRouting")

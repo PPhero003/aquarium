@@ -2,7 +2,7 @@
 
 日期：2026-10-13。依据项目内 `aquarium_ato_physical_pin_v0_9.pdf` 重建，原 PDF 保留。
 
-2026-10-15 PCB 更新：使用用户在立创 EDA 匹配的商城封装重新创建 `Aquarium_ATO_V1_0.PcbDoc`。板框为 110 mm × 70 mm，左上角设置为用户坐标 `(0,0)`；64 个器件已按整板信号流完成布局，178 个焊盘和 41 个网络保留，尚未布线。详见 `PCB_LAYOUT.md`。
+2026-10-23 PCB 更新：`generate_lceda_pcb.cjs` 综合 `GenerateAquariumFullLayout.pas`、`GeneratePCBPlacement.pas`、`RouteAndPourAquarium.pas` 和 `FixSilkscreenOverlaps.pas` 生成 `Aquarium_ATO_V1_0_LCEDA.PcbDoc`。四份脚本的布局、布线计划和位号数据已交叉校验一致。器件布局按比例扩展至 120 mm × 72 mm；本次细节优化后生成 304 段双层铜线、38 个过孔和 3 个铺铜区，254 段信号线中 247 段为 0.40 mm、7 段为 0.23 mm。预检确认 71 条计划连接均连通，异网铜冲突为 0；嘉立创 EDA 的实际铺铜与最终 DRC 尚待执行。该板已加入 Altium 工程；详见 `PCB_LAYOUT.md`。
 
 2026-10-13 符号修正：L1 的线圈改为四段 Altium 原生圆弧，修复旧版小数坐标折线在 AD 中显示为竖线的问题；参数、引脚位置和电气连接不变。已打开旧文件时，请关闭该页后重新打开磁盘上的修正版。
 
@@ -11,7 +11,8 @@
 - `Aquarium_ATO_V1_0.PrjPcb`：Altium 工程入口，包含三张可编辑的 `.SchDoc`、原理图库和 PCB 封装库。
 - `Aquarium_ATO_PhysicalPin_V1_1.SchLib`：按真实封装引脚号建立的工程原理图库。
 - `Aquarium_ATO_Footprints_V1_1.PcbLib`：已在 Altium Designer 19 中生成并保存的工程 PCB 封装库，共 18 个封装。
-- `Aquarium_ATO_V1_0.PcbDoc`：使用立创 EDA 商城封装重新创建的正式 PCB，已完成板框和器件布局。
+- `Aquarium_ATO_V1_0_LCEDA.PcbDoc`：新脚本生成的双层 PCB，已加入 Altium 工程并用于导入立创 EDA；含自动布线、过孔和待在 EDA 中重铺的铺铜区。
+- `Aquarium_ATO_V1_0_LCEDA_FullProject_Import.zip`：完整 Altium 工程导入包，包含工程入口、三张原理图、原理图库、PCB 封装库、新脚本生成的 PCB，以及工程内全部 `.pas`/`.PrjScr` 自动化脚本；运行 `package_lceda_import.ps1` 可重新生成。脚本作为工程资料一并归档，不属于 EDA 必须导入的电路设计文档。
 - `library_sources/EDA_LCSC_Footprint_Source.PcbDoc`：用户提供的立创封装母版，保留用于封装追溯。
 - `PCB_LAYOUT.md`、`PCB_PLACEMENT.csv`：PCB 布局依据及最终坐标表。
 - `FOOTPRINT_AUDIT.md`：封装来源、立创商城编号、焊盘编号和待实物确认项。
@@ -63,7 +64,20 @@ Altium 文件采用受支持的 ASCII SchDoc 格式，元件、引脚、导线�
 - 已查看三页 PDF 渲染结果，并修正文字和导线的重叠。
 - 工程文件、三张原理图、两个库和 BOM 的交叉核对结果见 `PROJECT_AUDIT.md`。
 
-当前已完成原理图规范化、器件库、封装核对、PCB 板框和器件布局，尚未布线、铺铜或完成 PCB DRC。原 F1=0.5A 参数保留，水泵启动电流和供电能力需要在器件选型阶段核实。独立连接检查不等同于 Altium 的完整 ERC 或硬件验证。
+## 导入立创 EDA
+
+在本目录运行 `powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\package_lceda_import.ps1` 生成完整导入包，然后在立创 EDA 专业版选择 Altium 工程导入并选取 `Aquarium_ATO_V1_0_LCEDA_FullProject_Import.zip`。包内保留 `.PrjPcb` 原有相对文件名，工程入口引用三张原理图、原理图库、两个封装库和新脚本生成的 PCB；`library_sources/`、BOM、连接/封装审计也随包提供。导入后请在 EDA 中确认跨页网络、器件符号和封装映射；Altium 格式转入 EDA 后仍需检查转换结果，并非已经在 EDA 端验证通过的原生工程。
+
+PCB 生成器优先采用 0.40 mm 信号线，只有无法布通时才回退到 0.23 mm；本版共 254 段信号线，其中 247 段为 0.40 mm、7 段为 0.23 mm。导入前几何预检间距已提高至 0.20 mm；导入后仍须重新铺铜并按目标板厂能力运行实际 DRC。通过脚本预检不等于板厂规则验证或已可投板。原 F1=0.5A 参数保留，水泵启动电流和供电能力仍需在器件选型阶段核实。独立连接检查也不等同于 Altium 的完整 ERC 或硬件验证。
+
+### 在立创 EDA 内重建一块新 PCB
+
+如果已把本工程的器件库和封装库导入立创 EDA 专业版，可在 EDA 的脚本运行界面依次添加并运行：
+
+1. `00_pcb_preflight.js`：只读检查当前工程原理图、器件关联、封装关联和 Protel2 网表；运行前先聚焦任意一张工程原理图。
+2. `01_build_aquarium_pcb.js`：再次检查原理图和库关联，在当前工程中新建一个带唯一名称的 PCB，按 `GeneratePCBPlacement.pas` 的坐标放置 64 个器件，并导入原理图网络。运行前同样聚焦工程原理图。
+
+重建脚本不会删除或覆盖现有 `Aquarium_ATO_V1_0_LCEDA.PcbDoc`。新板只包含布局和网表，不包含已验证的布线、铺铜或板框；运行后须检查封装、焊盘网络与飞线，补画板框、完成布线、重铺铜并运行嘉立创 EDA DRC。两个脚本使用 EDA 的内置 `eda` API，不是 Node.js 脚本；如果预检报告器件或封装未关联，先在 EDA 中完成库关联，不要继续运行重建脚本。
 
 ## 核对依据
 

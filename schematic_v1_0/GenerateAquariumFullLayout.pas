@@ -189,6 +189,69 @@ Begin
     MR_Plan('+3V3','L1','2','C5','1',0.60,False,0.00);
     MR_Plan('+3V3','C5','1','C6','1',0.60,False,0.00);
     MR_Plan('+3V3','C5','1','J5','1',0.60,False,46.50);
+    { Complete the two plane nets with explicit copper as well.  This keeps
+      connectivity correct even before JLCEDA rebuilds the imported pours. }
+    MR_Plan('+3V3','J5','1','C7','1',0.40,False,0.00);
+    MR_Plan('+3V3','C7','1','C8','1',0.40,False,0.00);
+    MR_Plan('+3V3','C8','1','R8','1',0.40,False,0.00);
+    MR_Plan('+3V3','C7','1','U3','4',0.23,False,0.00);
+    MR_Plan('+3V3','R8','1','U2','16',0.40,False,0.00);
+    MR_Plan('+3V3','U2','16','C12','1',0.40,False,0.00);
+    MR_Plan('+3V3','U2','16','R11','1',0.40,False,0.00);
+    MR_Plan('+3V3','R11','1','R14','1',0.40,False,0.00);
+    MR_Plan('+3V3','C12','1','C10','1',0.40,False,0.00);
+    MR_Plan('+3V3','C10','1','J4','1',0.40,False,0.00);
+    MR_Plan('+3V3','J4','1','R16','1',0.40,False,0.00);
+    MR_Plan('+3V3','C10','1','R15','1',0.40,False,0.00);
+    MR_Plan('+3V3','R15','1','J3','1',0.40,False,0.00);
+    MR_Plan('+3V3','J3','1','C9','1',0.40,False,0.00);
+    MR_Plan('+3V3','R16','1','C11','1',0.40,False,0.00);
+    MR_Plan('+3V3','C11','1','J6','1',0.40,False,0.00);
+    MR_Plan('+3V3','J6','1','R17','1',0.40,False,0.00);
+    MR_Plan('+3V3','R17','1','R6','1',0.40,False,0.00);
+    MR_Plan('+3V3','R6','1','R7','1',0.40,False,0.00);
+    MR_Plan('+3V3','R7','1','C17','1',0.40,False,0.00);
+    MR_Plan('+3V3','C17','1','C16','1',0.40,False,0.00);
+    MR_Plan('+3V3','C16','1','J7','1',0.40,False,0.00);
+    MR_Plan('+3V3','C17','1','C18','1',0.40,False,0.00);
+    MR_Plan('+3V3','C17','1','R18','1',0.40,False,0.00);
+    MR_Plan('+3V3','R18','1','R25','1',0.40,False,0.00);
+    MR_Plan('GND','J1','2','R1','2',0.50,False,0.00);
+    MR_Plan('GND','R1','2','C1','2',0.50,False,0.00);
+    MR_Plan('GND','C1','2','C2','2',0.50,False,0.00);
+    MR_Plan('GND','C2','2','C3','2',0.50,False,0.00);
+    MR_Plan('GND','C3','2','U1','4',0.50,False,0.00);
+    MR_Plan('GND','U1','4','J5','3',0.50,False,0.00);
+    MR_Plan('GND','J5','3','C7','2',0.50,False,0.00);
+    MR_Plan('GND','C7','2','C8','2',0.50,False,0.00);
+    MR_Plan('GND','C7','2','U3','5',0.23,False,0.00);
+    MR_Plan('GND','U3','5','C15','2',0.23,False,0.00);
+    MR_Plan('GND','C7','2','R13','2',0.50,False,0.00);
+    MR_Plan('GND','R13','2','R12','2',0.50,False,0.00);
+    MR_Plan('GND','R12','2','U2','7',0.50,False,0.00);
+    MR_Plan('GND','U2','7','U2','8',0.50,False,0.00);
+    MR_Plan('GND','U2','7','C12','2',0.50,False,0.00);
+    MR_Plan('GND','U3','5','SW3','2',0.23,False,0.00);
+    MR_Plan('GND','J5','3','C5','2',0.50,False,0.00);
+    MR_Plan('GND','C5','2','C6','2',0.50,False,0.00);
+    MR_Plan('GND','C12','2','C10','2',0.50,False,0.00);
+    MR_Plan('GND','C10','2','J4','2',0.50,False,0.00);
+    MR_Plan('GND','SW3','2','D3','1',0.50,False,0.00);
+    MR_Plan('GND','D3','1','C13','2',0.50,False,0.00);
+    MR_Plan('GND','D3','1','C17','2',0.50,False,0.00);
+    MR_Plan('GND','C17','2','C16','2',0.50,False,0.00);
+    MR_Plan('GND','C16','2','D4','1',0.50,False,0.00);
+    MR_Plan('GND','D4','1','C14','2',0.50,False,0.00);
+    MR_Plan('GND','C16','2','J7','2',0.50,False,0.00);
+    MR_Plan('GND','C17','2','C18','2',0.50,False,0.00);
+    MR_Plan('GND','C13','2','SW1','2',0.50,False,0.00);
+    MR_Plan('GND','SW1','2','SW2','2',0.50,False,0.00);
+    MR_Plan('GND','C18','2','R5','2',0.50,False,0.00);
+    MR_Plan('GND','R5','2','Q2','2',0.50,False,0.00);
+    MR_Plan('GND','C15','2','C11','2',0.50,False,0.00);
+    MR_Plan('GND','C11','2','J6','2',0.50,False,0.00);
+    MR_Plan('GND','C10','2','J3','2',0.50,False,0.00);
+    MR_Plan('GND','J3','2','C9','2',0.50,False,0.00);
 End;
 
 Procedure MR_T(X1,Y1,X2,Y2 : TCoord; W : Double; L : TLayer; N : IPCB_Net);
@@ -957,7 +1020,7 @@ Begin
     SL_PlaceName('C6',71.04,51.12); SL_PlaceName('Q2',81.10,56.20);
     SL_PlaceName('R4',79.04,49.34); SL_PlaceName('R5',84.04,49.34);
     SL_PlaceName('D2',87.54,56.04); SL_PlaceName('J2',95.54,48.27);
-    SL_PlaceName('U3',56.82,37.39); SL_PlaceName('C7',51.54,38.64);
+    SL_PlaceName('U3',56.82,37.39); SL_PlaceName('C7',52.92,35.35);
     SL_PlaceName('C8',49.15,30.48); SL_PlaceName('R8',51.54,23.51);
     SL_PlaceName('C15',56.66,27.58); SL_PlaceName('SW3',66.66,34.22);
     SL_PlaceName('J5',57.04,46.00); SL_PlaceName('J7',95.54,39.81);
@@ -1097,13 +1160,13 @@ Begin
     AddPart('R1','47k','R0805','RESISTOR_0805','ATODXXXX','01_Power_Pump',32,48,0);
     AddPart('D1','BZT52C10','SOD-123_L2.7-W1.6-LS3.7-RD','ZENER_DIODE','ATOHXXXX','01_Power_Pump',27,48,0);
     AddPart('C1','47u/50V','CAP-TH_BD6.3-P2.50-D0.6-FD','CAPACITOR_POLARIZED_RADIAL','ATOPXXXX','01_Power_Pump',43,54,0);
-    AddPart('C2','10u/50V X7R','C0805','CAPACITOR_C0805','ATO13XXX','01_Power_Pump',48,49,90);
-    AddPart('C3','100n/50V','C0805','CAPACITOR_C0805','ATO17XXX','01_Power_Pump',51,49,90);
+    AddPart('C2','10u/50V X7R','C0805','CAPACITOR_C0805','ATO13XXX','01_Power_Pump',47,52,90);
+    AddPart('C3','100n/50V','C0805','CAPACITOR_C0805','ATO17XXX','01_Power_Pump',49,54,90);
     AddPart('U1','AP63203WU-7','TSOT-26_L2.9-W1.6-P0.95-LS2.8-BL','AP63203WU_7','ATOLXXXX','01_Power_Pump',52,54,0);
-    AddPart('C4','100n','C0805','CAPACITOR_C0805','ATO1BXXX','01_Power_Pump',56.5,57,0);
+    AddPart('C4','100n','C0805','CAPACITOR_C0805','ATO1BXXX','01_Power_Pump',54,57,0);
     AddPart('L1','3.9uH / Isat 4A','IND-SMD_L5.0-W5.0_FNR50XXS','INDUCTOR_5X5','ATO1FXXX','01_Power_Pump',61,54,0);
-    AddPart('C5','22u/10V X7R','C0603','CAPACITOR_C0603','ATO1JXXX','01_Power_Pump',68,49,90);
-    AddPart('C6','22u/10V X7R','C0603','CAPACITOR_C0603','ATO1NXXX','01_Power_Pump',72,49,90);
+    AddPart('C5','22u/10V X7R','C0603','CAPACITOR_C0603','ATO1JXXX','01_Power_Pump',64.5,54,90);
+    AddPart('C6','22u/10V X7R','C0603','CAPACITOR_C0603','ATO1NXXX','01_Power_Pump',66.5,54,90);
     AddPart('Q2','AO3400A','SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR','NMOS_AO3400A','ATO21XXX','01_Power_Pump',82,54,0);
     AddPart('R4','1k','R0603','RESISTOR_0603','ATO25XXX','01_Power_Pump',80,48,0);
     AddPart('R5','100k','R0603','RESISTOR_0603','ATO29XXX','01_Power_Pump',85,48,0);
@@ -1112,7 +1175,7 @@ Begin
 
     { MCU centered between sensor, power, debug and user-interface fanout. }
     AddPart('U3','STM32G030F6P6','TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL','STM32G030F6P6','ATO2LXXX','02_Controller_IO',58,33,0);
-    AddPart('C7','100n','C0805','CAPACITOR_C0805','ATO2PXXX','02_Controller_IO',52.5,36,90);
+    AddPart('C7','100n','C0805','CAPACITOR_C0805','ATO2PXXX','02_Controller_IO',54,33.8,180);
     AddPart('C8','4.7u / 10V','C0603','CAPACITOR_C0603','ATO33XXX','02_Controller_IO',52.5,31,90);
     AddPart('R8','10k','R0805','RESISTOR_0805','ATO37XXX','02_Controller_IO',52.5,27,90);
     AddPart('C15','100n','C0805','CAPACITOR_C0805','ATO3BXXX','02_Controller_IO',58,26,0);
@@ -1141,7 +1204,7 @@ Begin
 
     { Bottom-edge sensor headers, protection parts above them, mux toward board center. }
     AddPart('U2','74HC4052D,652','SO-16_L9.9-W3.9-P1.27-LS6.0-BL','74HC4052D','ATO6HXXX','03_Sensors',36,27,90);
-    AddPart('C12','100n','C0805','CAPACITOR_C0805','ATO6LXXX','03_Sensors',29,27,90);
+    AddPart('C12','100n','C0805','CAPACITOR_C0805','ATO6LXXX','03_Sensors',31.5,22.5,90);
     AddPart('R14','10k','R0805','RESISTOR_0805','ATO6PXXX','03_Sensors',30,34.5,0);
     AddPart('R11','10k','R0805','RESISTOR_0805','ATO73XXX','03_Sensors',35,34.5,0);
     AddPart('R12','100k','R0603','RESISTOR_0603','ATO77XXX','03_Sensors',40,34.5,0);
@@ -1386,4 +1449,3 @@ Begin
 End;
 
 End.
-

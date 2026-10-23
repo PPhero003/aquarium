@@ -1,9 +1,0 @@
-BeforePads=3
-BeforeXY=87.884,121.412
-BeforeBounds=77.24394,118.28633,91.85275,128.31572
-AfterMovePads=3
-AfterMoveXY=92.884,124.412
-AfterMoveBounds=82.24394,121.28633,96.85275,131.31572
-AfterRotatePads=3
-AfterRotateRotation=90
-AfterRotateBounds=85.98028,113.77194,96.00967,128.38075

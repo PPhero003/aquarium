@@ -106,7 +106,7 @@ Begin
     SL_PlaceName('C6',71.04,51.12); SL_PlaceName('Q2',81.10,56.20);
     SL_PlaceName('R4',79.04,49.34); SL_PlaceName('R5',84.04,49.34);
     SL_PlaceName('D2',87.54,56.04); SL_PlaceName('J2',95.54,48.27);
-    SL_PlaceName('U3',56.82,37.39); SL_PlaceName('C7',51.54,38.64);
+    SL_PlaceName('U3',56.82,37.39); SL_PlaceName('C7',52.92,35.35);
     SL_PlaceName('C8',49.15,30.48); SL_PlaceName('R8',51.54,23.51);
     SL_PlaceName('C15',56.66,27.58); SL_PlaceName('SW3',66.66,34.22);
     SL_PlaceName('J5',57.04,46.00); SL_PlaceName('J7',95.54,39.81);

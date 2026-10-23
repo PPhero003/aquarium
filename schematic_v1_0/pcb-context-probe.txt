@@ -1,4 +1,0 @@
-START
-Document=OK
-BoardByPath=OK
-CurrentBoard=OK
